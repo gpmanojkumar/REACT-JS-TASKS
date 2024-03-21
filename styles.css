@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.8); /* Transparent dark background */
+    color: #fff; /* Light text color */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: rgba(52, 152, 219, 0.9); /* Transparent blue header */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+main {
+    flex: 1;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.task-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.7); /* Transparent dark table background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #fff; /* Light text color in the table */
+}
+
+.task-table th, .task-table td {
+    text-align: left;
+    padding: 12px 16px;
+    border-bottom: 1px solid #666; /* Dark border */
+}
+
+.task-table th {
+    background-color: rgba(52, 152, 219, 0.9); /* Transparent blue header for the table */
+    color: #fff;
+}
+
+.task-table a {
+    text-decoration: none;
+    color: #3498db;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.task-table a:hover {
+    color: #fff; /* Light text color on hover */
+    background-color: #3498db; /* Blue background on hover */
+    box-shadow: 0 0 10px #3498db; /* Glowing effect on hover */
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8); /* Transparent dark footer background */
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #3498db;
+    margin-left: 5px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
